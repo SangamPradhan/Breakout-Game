@@ -8,9 +8,10 @@
     <style>
         .centered {
             display: flex;
-            justify-content: center;
+            justify-content: left;
             align-items: center;
-            height: 100vh;
+            height: 2vh;
+            margin-top: 20px;
         }
     </style>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
@@ -18,12 +19,16 @@
 
 <body>
     <div class="container">
-        <h1 id="score">0</h1>
+        <div class="instructions centered">
+            <h3>Use &lt; OR &gt; buttons to move left or right</h3>
+        </div>
+        <div style="display: flex; align-items: center;">
+            <h2 style="margin-right: 10px;">Score:</h2>
+            <h1 id="score">0</h1>
+        </div>
         <div class="grid"></div>
         <button id="restartButton" style="display: none; margin-top:10px">Restart</button>
-
     </div>
-
     <footer>
         <div class="footer-container">
             <div class="footer-info">
@@ -39,7 +44,6 @@
             </div>
         </div>
     </footer>
-
 
     <script src="index.js"></script>
 </body>
