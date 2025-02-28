@@ -5,8 +5,8 @@ Hello everyone, in this project I show you how a game of 2D Breakout in HTML, CS
 I watched a youtube video and learned on making such simple Javascript Project
 
 
-### Are there any course requirements or prerequisites?
-* This is a course for people who have never coded and would like to learn
+### Are there any project requirements or prerequisites?
+* This is a simple project for people like me (as a beginer) who have interest in coding and would like to learn.
 
 ### What this project is for:
 * For beginners with an understanding of the fundamentals of JavaScript. 
